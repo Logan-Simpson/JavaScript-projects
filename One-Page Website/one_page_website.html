@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
+		<title> Piano Lessons </title>
+		<meta name="viewport" content="width=device=width, initial=scale=1" charset="utf-8">
+	</head>
+
+	<body>
+		<h1>Piano Lessons with Logan Simpson</h1>
+			
+		<!--NAV-->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>Home</li></a>
+					<a href="#gallery" id="link"><li>Gallery</li></a>
+					<a href="#contact" id="link"><li>Contact</li></a>
+				</u>
+			</div>
+		</div>
+		<!--END NAV-->
+		
+		<!--HOME-->
+		<div id="home">
+			<div>
+				<div>
+					<span>Piano Lessons with Logan Simpson</span>
+				</div>
+			</div>
+		</div>
+		<!--END HOME-->
+		<p>Offering lessons in person or remote. Get started today!</p>
+		
+		<!--GALLERY-->
+		<!--Images used to open the ligthbox-->
+		<div class="row">
+			<div class="column">
+				<img src="./piano/thumb2/piano_1.png" onclick="openModal();currentSlide(1)" class="hover-shadow"> 
+			</div>
+			<div class="column">
+				<img src="./piano/thumb2/piano_2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+		</div>
+
+		<!--The modal/lightbox-->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides">
+				<div class="numbertext">1 / 2</div>
+				<img src="./piano/thumb2/piano_1.png" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext"> 2 / 2</div>
+				<img src="./piano/thumb2/piano_2.png" style="width:100%">
+			</div>
+
+			<!--Next/previous controls-->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<!--Caption text-->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+			<!--Thumbnail image controls-->
+			<div class="column">
+				<img class="demo" src="./piano/thumb2/piano_1.png" onclick="currentSlide(1)" alt="Piano">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./piano/thumb2/piano_2.png" onclick="currentSlide(2)" alt="Piano">
+			</div>
+			</div>
+		</div>
+		
+			
+				
+						<div>
+								
+							</div>
+						
+				
+					
+								
+						
+							
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/FCCXmtZXn4Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<!--END GALLERY-->
+		
+		<!--RSVP-->
+		<section>
+			<p>Lessons in person or remote</p>
+
+			<div id="contact">
+				<div>
+					<h1>Contact</h1>
+					<div>
+						<h2><span>Get in touch with me and we'll figure out a schedule.</span>
+							<br />Reserve your lessons today!
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--END RSVP-->
+		
+		<!--FOOTER-->
+		<footer> Logan Simpson &nbsp;|&nbsp; &copy; 2020
+		
+	</body>		
+</html>
