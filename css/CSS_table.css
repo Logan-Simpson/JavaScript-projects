@@ -1,0 +1,20 @@
+table {
+	border: 1px solid silver;
+}
+td:hover {
+	background-color: darkgreen;
+	color: white;
+}
+tr, th {
+	background-color: lavender;
+    color: cream;
+}
+tr, td {
+	background-color: darkgreen;
+	color: cream;
+}
+body {
+	background-color: lightgrey;
+	color: cream;
+}
+
